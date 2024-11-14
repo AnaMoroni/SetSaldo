@@ -12,3 +12,4 @@ C:\Users\2023202060012\source\repos\SetSaldo\obj\Debug\net8.0\refint\SetSaldo.dl
 C:\Users\2023202060012\source\repos\SetSaldo\obj\Debug\net8.0\SetSaldo.pdb
 C:\Users\2023202060012\source\repos\SetSaldo\obj\Debug\net8.0\SetSaldo.genruntimeconfig.cache
 C:\Users\2023202060012\source\repos\SetSaldo\obj\Debug\net8.0\ref\SetSaldo.dll
+C:\Users\2023202060012\source\repos\SetSaldo\obj\Debug\net8.0\SetSaldo.sourcelink.json

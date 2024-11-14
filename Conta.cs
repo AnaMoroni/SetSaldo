@@ -4,14 +4,21 @@
 
     public void SetSaldo(double saldo)
     {
-        if (saldo >= 0)
+        try
         {
-            Saldo = saldo;
-            Console.WriteLine("Saldo adicionado com sucesso");
+            if (saldo > 0)
+            {
+                Saldo = saldo;
+                Console.WriteLine("Saldo adicionado com sucesso");
+            }
+            else
+            {
+                throw new Exception("O saldo não pode ser negativo");
+            }
         }
-        else
+        catch (Exception ex)
         {
-            Console.WriteLine("Saldo inválido");
+            throw new Exception(ex.Message);
         }
     }
 }
